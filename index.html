@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Trade Examination | HSBC</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <img src="/brand/hsbc-logo.svg" alt="HSBC" /><i></i
+        ><strong>Trade Operations</strong>
+      </div>
+      <div class="partner">
+        <img src="/brand/capgemini-blue.svg" alt="Capgemini" /><span
+          class="avatar"
+          >EX</span
+        >
+      </div>
+    </header>
+    <nav>
+      <div>
+        <button data-page="workspace" class="active">
+          Examination workspace</button
+        ><button data-page="library">Case library</button
+        ><button data-page="report" disabled>Examination report</button>
+      </div>
+      <small><b class="dot"></b> Local environment</small>
+    </nav>
+    <main>
+      <section class="hero">
+        <div class="heroText">
+          <label><b></b> GLOBAL TRADE SOLUTIONS</label>
+          <h1>Trade examination</h1>
+          <p>
+            Examine documentary credit presentations, trace the evidence<br
+              class="wide"
+            />
+            and prepare an examiner-ready report.
+          </p>
+        </div>
+      </section>
+      <div id="content"></div>
+    </main>
+    <footer>
+      <span>HSBC &nbsp; / &nbsp; Trade Operations</span
+      ><span>Synthetic documents · Demonstration workspace</span>
+    </footer>
+    <input id="pick" type="file" multiple accept=".pdf,.zip" hidden />
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
